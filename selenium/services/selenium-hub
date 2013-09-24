@@ -13,6 +13,7 @@ exec="/opt/selenium-server/selenium-hub/start-selenium-hub.sh"
 pidfile="/opt/selenium-server/selenium-hub/selenium-hub.pid"
 logfile="/opt/selenium-server/selenium-hub/log/selenium-hub.log"
 
+
 start() {
     if [ ! -f $pidfile ]; then
 	    touch "$pidfile"
